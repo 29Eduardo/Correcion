@@ -36,7 +36,7 @@ public class loginForm extends JFrame {
                     cajero.setVisible(true);
                     dispose();
                 } else {
-                    JOptionPane.showMessageDialog(null, "DATOS INVALIDOS ", "ERROR", JOptionPane.ERROR_MESSAGE);
+                    JOptionPane.showMessageDialog(null, "DATOS VACIOS", "ERROR", JOptionPane.ERROR_MESSAGE);
                 }
             }
         });

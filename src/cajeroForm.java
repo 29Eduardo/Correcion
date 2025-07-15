@@ -51,14 +51,6 @@ public class cajeroForm extends JFrame {
                  String correo = correoText.getText();
                   if (nombre.isEmpty() || celular.isEmpty() || apellido.isEmpty() || correo.isEmpty()) {
                       JOptionPane.showMessageDialog(null, "Datos Vacios", "ERROR", JOptionPane.ERROR_MESSAGE);
-                  } else {
-                      JOptionPane.showMessageDialog(null,"Datos Guardados.", "GUARDADOS", JOptionPane.INFORMATION_MESSAGE);
-                      nombreText.getText();
-                      celularText.getText();
-                      apellidoText.getText();
-                      correoText.getText();
-                      edadText.getText();
-
                   }
 
             }
